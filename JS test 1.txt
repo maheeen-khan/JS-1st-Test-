@@ -1,0 +1,99 @@
+-> Q#1:
+
+Legal Var :
+
+firstName
+_myWork
+List04
+
+illegal var :
+
+3student
+school data
+66
+your-variable
+@username
+
+-> Q#2:
+
+var num1 = +prompt("Enter value 1 :");
+var num2 = +prompt("Enter value 2 :");
+var sum = num1 + num2;
+
+document.write("The sum of "+ num1 + "and "+ num2 + "is :"+ sum);
+
+-> Q#3:
+
+var firstName = "Maheen";
+var lastName = "Khan";
+var fullName = firstName + lastName;
+
+console.log("Full name is : " + fullName);
+
+->Q#4:
+
+var num = +prompt("Enter the positive number :");
+
+if(num > 0){
+	if(num % 2 == 0){
+		console.log(num + " is EVEN");
+	}
+	else{
+		console.log(num + " is ODD");
+	}
+}
+else{
+	console.log("Please Enter Positive number");
+}
+
+->Q#5:
+
+var score = +prompt("Enter your exam score : ");
+
+if(score <= 100){
+	if(score >= 90){
+		console.log("Your Grade is A");
+	}
+	else if(score >= 80 && score <= 89){
+		console.log("Your Grade is B");
+	}
+	else if(score >= 70 && score <= 79){
+		console.log("Your Grade is C");
+	}
+	else if(score >= 60 && score <= 69){
+		console.log("Your Grade is D");
+	}
+	else{
+		console.log("Fail! Better Luck next Time");
+	}
+}
+else{
+	console.log("Error! Please enter marks in range of 100");
+}
+
+->Q#6:
+
+1 -> result = 5; a = 5; b = 4; c = 8;
+2 -> result = 9; a = 2; b = 1; c= 4; 
+3 -> result = 3; a = 4; b = 0; c = 6;
+4 -> result = 0; a = 4; b = 4; c = 9;
+5 -> result = -1; a = 3; b = 3; c = 2;
+6 -> result = 7; a = 3; b = 5; c = 4;
+7 -> result = 9; a = 4; b = 5; c = 5;
+8 -> result = -1; a = 5; b = 6; c = 1;
+9 -> result = 1; a = 0; b = 10; c = 2;
+10 -> result = -3; a = 1; b = -2; c = 1;
+
+-> Q#7:
+
+1 -> undefined
+2 -> true
+3 -> 0
+4 -> false 
+5 -> undefined
+6 -> true
+7 -> true
+8 -> true
+9 -> null
+10 -> true
+11 -> true
